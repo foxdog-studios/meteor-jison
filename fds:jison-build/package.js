@@ -13,7 +13,7 @@ Package.registerBuildPlugin({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.4');
+  api.versionsFrom('1.0.2.1');
   api.use('fds:jison-base@0.0.0');
   api.imply('fds:jison-base');
   api.addFiles('main.js');

@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.4');
+  api.versionsFrom('1.0.2.1');
   api.addFiles('fds:jison-base.js');
   api.export('Jison');
 });
